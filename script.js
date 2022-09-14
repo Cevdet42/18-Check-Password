@@ -1,6 +1,8 @@
-document.getElementById("show"),addEventListener("click", show);
+document.getElementById("show").addEventListener("click", show);
 
 function show(){
+
+    event.preventDefault();
 
     var password_of_user;
     const PASSWORD = 'Messi'
